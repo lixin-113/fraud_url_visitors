@@ -1,0 +1,13 @@
+services:
+  fraud_url:
+    image: risk_card:v1.0
+    container_name: fraud_url_visitors
+    ports:
+      - "8305:8305"
+    volumes:
+      - /data01/lixin/fraud_url_visitors:/data/app
+
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["sleep infinity"]
+    privileged: true
+    shm_size: '10g'

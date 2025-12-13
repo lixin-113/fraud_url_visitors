@@ -1,0 +1,56 @@
+2025-12-11 17:07:47,181 - INFO - visitors_rank_task:24 - [2025-12-11 17:07:47] 执行定时任务！
+2025-12-11 17:07:47,181 - INFO - visitors_rank_task:25 - [2025-12-11 17:07:47] 执行定时任务，开始处理日期为 20251031 的数据。。。
+2025-12-11 17:07:47,181 - INFO - visitors_rank_task:35 - 正在进行日期为--20251031--的访客数据特征分析中。。。
+2025-12-11 17:07:47,181 - INFO - log_message:60 - 正在进行访客特征分析的日期为：20251031...
+2025-12-11 17:07:47,181 - INFO - log_message:60 - 正在读取的文件数据为：全量话单数据.txt...
+2025-12-11 17:07:47,211 - INFO - log_message:60 - 文件数据:全量话单数据.txt,已经读取完成！！！
+2025-12-11 17:07:47,211 - INFO - log_message:60 - 正在读取的文件数据为：短信数据.txt...
+2025-12-11 17:07:47,220 - INFO - log_message:60 - 文件数据:短信数据.txt,已经读取完成！！！
+2025-12-11 17:07:47,220 - INFO - log_message:60 - 正在读取的文件数据为：访客数据.txt...
+2025-12-11 17:07:47,228 - INFO - log_message:60 - 文件数据:访客数据.txt,已经读取完成！！！
+2025-12-11 17:07:47,229 - INFO - log_message:60 - 正在读取的文件数据为：手机号去重清单.txt...
+2025-12-11 17:07:47,231 - INFO - log_message:60 - 文件数据:手机号去重清单.txt,已经读取完成！！！
+2025-12-11 17:07:47,231 - INFO - log_message:60 - 正在读取的文件数据为：app银行类别的明细数据.txt...
+2025-12-11 17:07:47,243 - INFO - log_message:60 - 文件数据:app银行类别的明细数据.txt,已经读取完成！！！
+2025-12-11 17:07:47,243 - INFO - log_message:60 - 文件数据已经全部读取完成！！！
+2025-12-11 17:07:47,243 - INFO - log_message:60 - 正在进行数据预处理中。。。
+2025-12-11 17:07:47,269 - ERROR - log_message:64 - 在数据预处理中出现list index out of range！！
+2025-12-11 17:07:47,269 - INFO - log_message:60 - 数据预处理已经全部完成！！！
+2025-12-11 17:07:47,269 - INFO - log_message:60 - 正在进行访客数据特征分析中。。。
+2025-12-11 17:07:47,270 - ERROR - log_message:64 - 在进行访客数据特征分析中出现"['年月'] not in index"！！！
+2025-12-11 17:07:47,270 - INFO - log_message:60 - 日期为--20251031--的访客数据特征分析完成！！！ 
+2025-12-11 17:07:47,270 - ERROR - visitors_rank_task:38 - 日期为--20251031--进行访客数据特征分析中出现cannot access local variable 'grouped_time' where it is not associated with a value！！！
+2025-12-11 17:07:47,271 - INFO - visitors_rank_task:41 - 正在进行日期为--20251031--的网信安数据特征分析中。。。
+2025-12-11 17:07:47,271 - ERROR - visitors_rank_task:44 - 日期为--20251031--进行网信安数据特征分析中出现cannot access local variable 'feature_data' where it is not associated with a value！！！
+2025-12-11 17:07:47,272 - INFO - visitors_rank_task:48 - 正在进行日期为--20251031--的访客风险等级分级中。。。
+2025-12-11 17:07:47,272 - INFO - visitors_rank_task:49 - 准备进行地点为--nantong--的访客风险等级分级中。。。
+2025-12-11 17:07:47,272 - ERROR - visitors_rank_task:56 - 日期为--20251031--进行访客风险等级分级中出现cannot access local variable 'total_data' where it is not associated with a value！！！
+2025-12-11 17:07:47,272 - INFO - visitors_rank_task:59 - 日期为--20251031--进行访客风险等级分级已经完成，等待执行下一日期的定时任务中。。。
+2025-12-11 17:12:09,802 - INFO - visitors_rank_task:24 - [2025-12-11 17:12:09] 执行定时任务！
+2025-12-11 17:12:09,802 - INFO - visitors_rank_task:25 - [2025-12-11 17:12:09] 执行定时任务，开始处理日期为 20251031 的数据。。。
+2025-12-11 17:12:09,802 - INFO - visitors_rank_task:35 - 正在进行日期为--20251031--的访客数据特征分析中。。。
+2025-12-11 17:12:09,802 - INFO - log_message:60 - 正在进行访客特征分析的日期为：20251031...
+2025-12-11 17:12:09,802 - INFO - log_message:60 - 正在读取的文件数据为：全量话单数据.txt...
+2025-12-11 17:12:09,836 - INFO - log_message:60 - 文件数据:全量话单数据.txt,已经读取完成！！！
+2025-12-11 17:12:09,836 - INFO - log_message:60 - 正在读取的文件数据为：短信数据.txt...
+2025-12-11 17:12:09,849 - INFO - log_message:60 - 文件数据:短信数据.txt,已经读取完成！！！
+2025-12-11 17:12:09,849 - INFO - log_message:60 - 正在读取的文件数据为：访客数据.txt...
+2025-12-11 17:12:09,858 - INFO - log_message:60 - 文件数据:访客数据.txt,已经读取完成！！！
+2025-12-11 17:12:09,859 - INFO - log_message:60 - 正在读取的文件数据为：手机号去重清单.txt...
+2025-12-11 17:12:09,861 - INFO - log_message:60 - 文件数据:手机号去重清单.txt,已经读取完成！！！
+2025-12-11 17:12:09,861 - INFO - log_message:60 - 正在读取的文件数据为：app银行类别的明细数据.txt...
+2025-12-11 17:12:09,873 - INFO - log_message:60 - 文件数据:app银行类别的明细数据.txt,已经读取完成！！！
+2025-12-11 17:12:09,874 - INFO - log_message:60 - 文件数据已经全部读取完成！！！
+2025-12-11 17:12:09,874 - INFO - log_message:60 - 正在进行数据预处理中。。。
+2025-12-11 17:12:09,902 - ERROR - log_message:64 - 在数据预处理中出现list index out of range！！
+2025-12-11 17:12:09,902 - INFO - log_message:60 - 数据预处理已经全部完成！！！
+2025-12-11 17:12:09,902 - INFO - log_message:60 - 正在进行访客数据特征分析中。。。
+2025-12-11 17:12:09,903 - ERROR - log_message:64 - 在进行访客数据特征分析中出现"['年月'] not in index"！！！
+2025-12-11 17:12:09,903 - INFO - log_message:60 - 日期为--20251031--的访客数据特征分析完成！！！ 
+2025-12-11 17:12:09,903 - ERROR - visitors_rank_task:38 - 日期为--20251031--进行访客数据特征分析中出现cannot access local variable 'grouped_time' where it is not associated with a value！！！
+2025-12-11 17:12:09,904 - INFO - visitors_rank_task:41 - 正在进行日期为--20251031--的网信安数据特征分析中。。。
+2025-12-11 17:12:09,905 - ERROR - visitors_rank_task:44 - 日期为--20251031--进行网信安数据特征分析中出现cannot access local variable 'feature_data' where it is not associated with a value！！！
+2025-12-11 17:12:09,905 - INFO - visitors_rank_task:48 - 正在进行日期为--20251031--的访客风险等级分级中。。。
+2025-12-11 17:12:09,905 - INFO - visitors_rank_task:49 - 准备进行地点为--nantong--的访客风险等级分级中。。。
+2025-12-11 17:12:09,905 - ERROR - visitors_rank_task:56 - 日期为--20251031--进行访客风险等级分级中出现cannot access local variable 'total_data' where it is not associated with a value！！！
+2025-12-11 17:12:09,905 - INFO - visitors_rank_task:59 - 日期为--20251031--进行访客风险等级分级已经完成，等待执行下一日期的定时任务中。。。

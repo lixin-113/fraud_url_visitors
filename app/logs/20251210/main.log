@@ -1,0 +1,126 @@
+2025-12-11 17:45:01,647 - INFO - visitors_rank_task:24 - [2025-12-11 17:45:01] 执行定时任务！
+2025-12-11 17:45:01,647 - INFO - visitors_rank_task:25 - [2025-12-11 17:45:01] 执行定时任务，开始处理日期为 20251210 的数据。。。
+2025-12-11 17:45:01,647 - INFO - visitors_rank_task:35 - 正在进行日期为--20251210--的访客数据特征分析中。。。
+2025-12-11 17:45:01,647 - INFO - feature_main:380 - 正在进行访客特征分析的日期为：20251210...
+2025-12-11 17:45:01,647 - INFO - feature_main:384 - 正在读取的文件数据为：全量话单数据.txt...
+2025-12-11 17:45:01,652 - INFO - feature_main:388 - 文件数据:全量话单数据.txt,已经读取完成！！！
+2025-12-11 17:45:01,652 - INFO - feature_main:395 - 正在读取的文件数据为：短信数据.txt...
+2025-12-11 17:45:01,655 - INFO - feature_main:399 - 文件数据:短信数据.txt,已经读取完成！！！
+2025-12-11 17:45:01,655 - INFO - feature_main:406 - 正在读取的文件数据为：访客数据.txt...
+2025-12-11 17:45:01,657 - INFO - feature_main:410 - 文件数据:访客数据.txt,已经读取完成！！！
+2025-12-11 17:45:01,657 - INFO - feature_main:417 - 正在读取的文件数据为：手机号去重清单.txt...
+2025-12-11 17:45:01,659 - INFO - feature_main:421 - 文件数据:手机号去重清单.txt,已经读取完成！！！
+2025-12-11 17:45:01,660 - INFO - feature_main:428 - 正在读取的文件数据为：app银行类别的明细数据.txt...
+2025-12-11 17:45:01,664 - INFO - feature_main:432 - 文件数据:app银行类别的明细数据.txt,已经读取完成！！！
+2025-12-11 17:45:01,664 - INFO - feature_main:440 - 文件数据已经全部读取完成！！！
+2025-12-11 17:45:01,664 - INFO - feature_main:442 - 正在进行数据预处理中。。。
+2025-12-11 17:45:01,673 - INFO - feature_main:457 - 数据预处理已经全部完成！！！
+2025-12-11 17:45:01,673 - INFO - feature_main:461 - 正在进行访客数据特征分析中。。。
+2025-12-11 17:45:01,682 - INFO - comb_time:256 - 正在处理短信异常联系人。。。
+2025-12-11 17:45:01,682 - INFO - select_usual_phone:90 - 正在处理特征为 操作时间 的异常联系人。。。
+2025-12-11 17:45:01,683 - ERROR - select_usual_phone:103 - 在处理特征为 操作时间 的异常联系人时出现 cannot access local variable 'date_timestamp' where it is not associated with a value！！！
+2025-12-11 17:45:01,685 - INFO - select_unusual_phone:108 - 正在进行 异常联系人 匹配中
+2025-12-11 17:45:01,687 - ERROR - select_unusual_phone:121 - 在 异常联系人 匹配时出现'other_party'！！！
+2025-12-11 17:45:01,687 - ERROR - comb_time:262 - 在处理短信异常联系人时出现：'res'！！！
+2025-12-11 17:45:01,687 - INFO - comb_time:267 - 正在处理话单异常联系人。。。
+2025-12-11 17:45:01,687 - INFO - select_usual_phone:90 - 正在处理特征为 通话时间 的异常联系人。。。
+2025-12-11 17:45:01,688 - ERROR - select_usual_phone:103 - 在处理特征为 通话时间 的异常联系人时出现 cannot access local variable 'date_timestamp' where it is not associated with a value！！！
+2025-12-11 17:45:01,689 - INFO - select_unusual_phone:108 - 正在进行 异常联系人 匹配中
+2025-12-11 17:45:01,691 - ERROR - select_unusual_phone:121 - 在 异常联系人 匹配时出现'other_party'！！！
+2025-12-11 17:45:01,691 - ERROR - comb_time:274 - 在处理话单异常联系人时出现：'res'！！！
+2025-12-11 17:45:01,691 - INFO - comb_time:278 - 正在处理特征 访问网址时间银行交易 中。。。
+2025-12-11 17:45:01,697 - INFO - comb_time:284 - 特征 访问网址时间银行交易 已经处理完成。。。
+2025-12-11 17:45:01,697 - INFO - comb_time:291 - 正在处理特征 访问网址时间拨打电话 中。。。
+2025-12-11 17:45:01,697 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,699 - INFO - comb_time:293 - 特征 访问网址时间拨打电话 已经处理完成。。。
+2025-12-11 17:45:01,699 - INFO - comb_time:298 - 正在处理特征 访问网址时间接收电话 中。。。
+2025-12-11 17:45:01,699 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,701 - INFO - comb_time:300 - 特征 访问网址时间接收电话 已经处理完成。。。
+2025-12-11 17:45:01,701 - INFO - comb_time:305 - 正在处理特征 访问网址时间接收短信 中。。。
+2025-12-11 17:45:01,701 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,703 - INFO - comb_time:307 - 特征 访问网址时间接收短信 已经处理完成。。。
+2025-12-11 17:45:01,703 - INFO - comb_time:312 - 正在处理特征 访问网址时间发送短信 中。。。
+2025-12-11 17:45:01,703 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,704 - INFO - comb_time:314 - 特征 访问网址时间发送短信 已经处理完成。。。
+2025-12-11 17:45:01,705 - INFO - comb_time:319 - 正在处理特征 访问网址时间短信异常联系人 中。。。
+2025-12-11 17:45:01,705 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,705 - ERROR - fully_vectorized_solution:210 - 在特征分析时出现'短信异常联系人'！！！
+2025-12-11 17:45:01,705 - ERROR - comb_time:323 - 在处理特征 访问网址时间短信异常联系人 时出现'has_something'！！！
+2025-12-11 17:45:01,706 - INFO - comb_time:326 - 正在处理特征 访问网址时间话单异常联系人 中。。。
+2025-12-11 17:45:01,706 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:45:01,706 - ERROR - fully_vectorized_solution:210 - 在特征分析时出现'话单异常联系人'！！！
+2025-12-11 17:45:01,706 - ERROR - comb_time:330 - 在处理特征 访问网址时间话单异常联系人 时出现'has_something'！！！
+2025-12-11 17:45:01,713 - INFO - comb_time:338 - 正在进行分析手机号码的特征整合中。。。
+2025-12-11 17:45:01,713 - ERROR - comb_time:371 - 在进行分析手机号码的特征整合时出现"['短信异常联系人', '话单异常联系人', '访问网址时间话单异常联系人', '访问网址时间短信异常联系人'] not in index"！！！
+2025-12-11 17:45:01,713 - ERROR - feature_main:465 - 在进行访客数据特征分析中出现cannot access local variable 'grouped' where it is not associated with a value！！！
+2025-12-11 17:45:01,713 - INFO - feature_main:467 - 日期为--20251210--的访客数据特征分析完成！！！ 
+2025-12-11 17:45:01,714 - ERROR - visitors_rank_task:38 - 日期为--20251210--进行访客数据特征分析中出现cannot access local variable 'grouped_time' where it is not associated with a value！！！
+2025-12-11 17:45:01,714 - INFO - visitors_rank_task:41 - 正在进行日期为--20251210--的网信安数据特征分析中。。。
+2025-12-11 17:45:01,714 - ERROR - visitors_rank_task:44 - 日期为--20251210--进行网信安数据特征分析中出现cannot access local variable 'feature_data' where it is not associated with a value！！！
+2025-12-11 17:45:01,714 - INFO - visitors_rank_task:48 - 正在进行日期为--20251210--的访客风险等级分级中。。。
+2025-12-11 17:45:01,714 - INFO - visitors_rank_task:49 - 准备进行地点为--nantong--的访客风险等级分级中。。。
+2025-12-11 17:45:01,714 - ERROR - visitors_rank_task:56 - 日期为--20251210--进行访客风险等级分级中出现cannot access local variable 'total_data' where it is not associated with a value！！！
+2025-12-11 17:45:01,714 - INFO - visitors_rank_task:59 - 日期为--20251210--进行访客风险等级分级已经完成，等待执行下一日期的定时任务中。。。
+2025-12-11 17:47:24,354 - INFO - visitors_rank_task:24 - [2025-12-11 17:47:24] 执行定时任务！
+2025-12-11 17:47:24,354 - INFO - visitors_rank_task:25 - [2025-12-11 17:47:24] 执行定时任务，开始处理日期为 20251210 的数据。。。
+2025-12-11 17:47:24,354 - INFO - visitors_rank_task:35 - 正在进行日期为--20251210--的访客数据特征分析中。。。
+2025-12-11 17:47:24,355 - INFO - feature_main:380 - 正在进行访客特征分析的日期为：20251210...
+2025-12-11 17:47:24,355 - INFO - feature_main:384 - 正在读取的文件数据为：全量话单数据.txt...
+2025-12-11 17:47:24,359 - INFO - feature_main:388 - 文件数据:全量话单数据.txt,已经读取完成！！！
+2025-12-11 17:47:24,359 - INFO - feature_main:395 - 正在读取的文件数据为：短信数据.txt...
+2025-12-11 17:47:24,362 - INFO - feature_main:399 - 文件数据:短信数据.txt,已经读取完成！！！
+2025-12-11 17:47:24,362 - INFO - feature_main:406 - 正在读取的文件数据为：访客数据.txt...
+2025-12-11 17:47:24,364 - INFO - feature_main:410 - 文件数据:访客数据.txt,已经读取完成！！！
+2025-12-11 17:47:24,365 - INFO - feature_main:417 - 正在读取的文件数据为：手机号去重清单.txt...
+2025-12-11 17:47:24,367 - INFO - feature_main:421 - 文件数据:手机号去重清单.txt,已经读取完成！！！
+2025-12-11 17:47:24,367 - INFO - feature_main:428 - 正在读取的文件数据为：app银行类别的明细数据.txt...
+2025-12-11 17:47:24,371 - INFO - feature_main:432 - 文件数据:app银行类别的明细数据.txt,已经读取完成！！！
+2025-12-11 17:47:24,371 - INFO - feature_main:440 - 文件数据已经全部读取完成！！！
+2025-12-11 17:47:24,372 - INFO - feature_main:442 - 正在进行数据预处理中。。。
+2025-12-11 17:47:24,380 - INFO - feature_main:457 - 数据预处理已经全部完成！！！
+2025-12-11 17:47:24,380 - INFO - feature_main:461 - 正在进行访客数据特征分析中。。。
+2025-12-11 17:47:24,390 - INFO - comb_time:256 - 正在处理短信异常联系人。。。
+2025-12-11 17:47:24,390 - INFO - select_usual_phone:90 - 正在处理特征为 操作时间 的异常联系人。。。
+2025-12-11 17:47:24,391 - ERROR - select_usual_phone:103 - 在处理特征为 操作时间 的异常联系人时出现 cannot access local variable 'date_timestamp' where it is not associated with a value！！！
+2025-12-11 17:47:24,392 - INFO - select_unusual_phone:108 - 正在进行 异常联系人 匹配中
+2025-12-11 17:47:24,394 - ERROR - select_unusual_phone:121 - 在 异常联系人 匹配时出现'other_party'！！！
+2025-12-11 17:47:24,394 - ERROR - comb_time:262 - 在处理短信异常联系人时出现：'res'！！！
+2025-12-11 17:47:24,394 - INFO - comb_time:267 - 正在处理话单异常联系人。。。
+2025-12-11 17:47:24,394 - INFO - select_usual_phone:90 - 正在处理特征为 通话时间 的异常联系人。。。
+2025-12-11 17:47:24,395 - ERROR - select_usual_phone:103 - 在处理特征为 通话时间 的异常联系人时出现 cannot access local variable 'date_timestamp' where it is not associated with a value！！！
+2025-12-11 17:47:24,396 - INFO - select_unusual_phone:108 - 正在进行 异常联系人 匹配中
+2025-12-11 17:47:24,399 - ERROR - select_unusual_phone:121 - 在 异常联系人 匹配时出现'other_party'！！！
+2025-12-11 17:47:24,399 - ERROR - comb_time:274 - 在处理话单异常联系人时出现：'res'！！！
+2025-12-11 17:47:24,399 - INFO - comb_time:278 - 正在处理特征 访问网址时间银行交易 中。。。
+2025-12-11 17:47:24,405 - INFO - comb_time:284 - 特征 访问网址时间银行交易 已经处理完成。。。
+2025-12-11 17:47:24,405 - INFO - comb_time:291 - 正在处理特征 访问网址时间拨打电话 中。。。
+2025-12-11 17:47:24,405 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,407 - INFO - comb_time:293 - 特征 访问网址时间拨打电话 已经处理完成。。。
+2025-12-11 17:47:24,407 - INFO - comb_time:298 - 正在处理特征 访问网址时间接收电话 中。。。
+2025-12-11 17:47:24,407 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,409 - INFO - comb_time:300 - 特征 访问网址时间接收电话 已经处理完成。。。
+2025-12-11 17:47:24,409 - INFO - comb_time:305 - 正在处理特征 访问网址时间接收短信 中。。。
+2025-12-11 17:47:24,409 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,410 - INFO - comb_time:307 - 特征 访问网址时间接收短信 已经处理完成。。。
+2025-12-11 17:47:24,411 - INFO - comb_time:312 - 正在处理特征 访问网址时间发送短信 中。。。
+2025-12-11 17:47:24,411 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,412 - INFO - comb_time:314 - 特征 访问网址时间发送短信 已经处理完成。。。
+2025-12-11 17:47:24,412 - INFO - comb_time:319 - 正在处理特征 访问网址时间短信异常联系人 中。。。
+2025-12-11 17:47:24,412 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,413 - ERROR - fully_vectorized_solution:210 - 在特征分析时出现'短信异常联系人'！！！
+2025-12-11 17:47:24,413 - ERROR - comb_time:323 - 在处理特征 访问网址时间短信异常联系人 时出现'has_something'！！！
+2025-12-11 17:47:24,413 - INFO - comb_time:326 - 正在处理特征 访问网址时间话单异常联系人 中。。。
+2025-12-11 17:47:24,414 - INFO - log_message:60 - 正在进行 特征处理中。。。
+2025-12-11 17:47:24,414 - ERROR - fully_vectorized_solution:210 - 在特征分析时出现'话单异常联系人'！！！
+2025-12-11 17:47:24,414 - ERROR - comb_time:330 - 在处理特征 访问网址时间话单异常联系人 时出现'has_something'！！！
+2025-12-11 17:47:24,420 - INFO - comb_time:338 - 正在进行分析手机号码的特征整合中。。。
+2025-12-11 17:47:24,421 - ERROR - comb_time:371 - 在进行分析手机号码的特征整合时出现"['短信异常联系人', '话单异常联系人', '访问网址时间话单异常联系人', '访问网址时间短信异常联系人'] not in index"！！！
+2025-12-11 17:47:24,421 - ERROR - feature_main:465 - 在进行访客数据特征分析中出现cannot access local variable 'grouped' where it is not associated with a value！！！
+2025-12-11 17:47:24,421 - INFO - feature_main:467 - 日期为--20251210--的访客数据特征分析完成！！！ 
+2025-12-11 17:47:24,421 - ERROR - visitors_rank_task:38 - 日期为--20251210--进行访客数据特征分析中出现cannot access local variable 'grouped_time' where it is not associated with a value！！！
+2025-12-11 17:47:24,422 - INFO - visitors_rank_task:41 - 正在进行日期为--20251210--的网信安数据特征分析中。。。
+2025-12-11 17:47:24,422 - ERROR - visitors_rank_task:44 - 日期为--20251210--进行网信安数据特征分析中出现cannot access local variable 'feature_data' where it is not associated with a value！！！
+2025-12-11 17:47:24,422 - INFO - visitors_rank_task:48 - 正在进行日期为--20251210--的访客风险等级分级中。。。
+2025-12-11 17:47:24,422 - INFO - visitors_rank_task:49 - 准备进行地点为--nantong--的访客风险等级分级中。。。
+2025-12-11 17:47:24,422 - ERROR - visitors_rank_task:56 - 日期为--20251210--进行访客风险等级分级中出现cannot access local variable 'total_data' where it is not associated with a value！！！
+2025-12-11 17:47:24,422 - INFO - visitors_rank_task:59 - 日期为--20251210--进行访客风险等级分级已经完成，等待执行下一日期的定时任务中。。。
