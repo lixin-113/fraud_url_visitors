@@ -17,7 +17,7 @@ app/
 README.md         
 ```
 ## 运行服务
-docker exec fraud_url_visitors /bin/bash -c "python /data/app/main.py"
+docker exec fraud_url_visitors /bin/bash -c "nohup python /data/app/main.py > scheduler.log 2>&1 &"
 
 ## 定时任务
 每天 12：00 处理昨天部分地域的访客数据
