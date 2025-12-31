@@ -4,16 +4,18 @@
 
 ```
 app/
-├── logs/              # 日志
-├── core/              # 日志处理器
-├── model/             # 模型文件
-├── output/            # 分级结果
-├── services/          # 处理数据
-├── config.py          # 基本配置信息
-├── main.py            # 应用入口
-├── run.sh             # 启动脚本
-├── test.py            # 测试入口
-└── run_test.sh        # 测试启动脚本
+├── logs/               # 日志
+├── core/               # 日志处理器
+├── model/              # 模型文件
+├── output/             # 分级结果
+├── services/           # 处理核心
+├── config.py           # 基本配置信息
+├── docker-compose.yaml # 容器启动脚本
+├── main.py             # 应用入口
+├── run.sh              # 启动脚本
+├── test.py             # 测试入口
+└── run_test.sh         # 测试启动脚本
+README.md         
 ```
 ### Summary - 概要
 
