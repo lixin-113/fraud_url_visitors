@@ -13,26 +13,12 @@ app/
 ├── docker-compose.yaml # 容器启动脚本
 ├── main.py             # 应用入口
 ├── run.sh              # 启动脚本
-├── test.py             # 测试入口
-└── run_test.sh         # 测试启动脚本
+└── test.py             # 测试入口
 README.md         
 ```
-### Summary - 概要
+## 运行服务
+docker exec fraud_url_visitors /bin/bash -c "python /data/app/main.py"
 
-### Features - 特性
+## 定时任务
+每天 12：00 处理昨天部分地域的访客数据
 
-## Requirements - 必要条件（环境，对所有项目，和所有子模块和库的描述。）
-
-## Configuration - 配置（配置信息。）
-
-## Installation - 安装（如何安装。）
-
-## Usage - 用法（用法。）
-
-## Development - 开发（关于怎样开发的文档信息。（API 等。））
-
-## Changelog - 更新日志（一个简短的历史记录（更改，替换或者其他）。）
-
-## FAQ - 常见问题（常见问题。）
-
-## Support - 支持
